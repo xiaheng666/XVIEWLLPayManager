@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XVIEWLLPayManager_Example' do
+  pod 'XVIEWLLPayManager', :path => '../'
+
+  target 'XVIEWLLPayManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
