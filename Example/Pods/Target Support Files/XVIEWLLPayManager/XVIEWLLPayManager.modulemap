@@ -1,0 +1,6 @@
+framework module XVIEWLLPayManager {
+  umbrella header "XVIEWLLPayManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
