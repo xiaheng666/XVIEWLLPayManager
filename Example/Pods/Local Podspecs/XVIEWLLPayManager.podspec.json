@@ -1,22 +1,27 @@
 {
   "name": "XVIEWLLPayManager",
-  "version": "0.1.0",
-  "summary": "A short description of XVIEWLLPayManager.",
+  "version": "0.1.1",
+  "summary": "连连支付",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/maomao520benben/XVIEWLLPayManager",
+  "homepage": "https://github.com/xiaheng666/XVIEWLLPayManager",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "maomao520benben": "key@xiaheng.net"
+    "xiaheng666": "key@xiaheng.net"
   },
   "source": {
-    "git": "https://github.com/maomao520benben/XVIEWLLPayManager.git",
-    "tag": "0.1.0"
+    "git": "git@github.com:xiaheng666/XVIEWLLPayManager.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XVIEWLLPayManager/Classes/**/*"
+  "source_files": "XVIEWLLPayManager/Classes/**/*",
+  "dependencies": {
+    "LLPaySDK": [
+      "~> 2.6.3"
+    ]
+  }
 }
