@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWLLPayManager'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = '连连支付'
 
 # This description is used to generate tags and improve search results.
@@ -28,9 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:xiaheng666/XVIEWLLPayManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XVIEWLLPayManager/Classes/**/*'
+  s.source_files = 'XVIEWLLPayManager/Classes/**/*','XVIEWLLPayManager/Classes/**/*.a'
   
   # s.resource_bundles = {
   #   'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.png']
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   s.dependency 'LLPaySDK', '~> 2.6.3'
+   s.dependency 'LLPaySDK', '~> 2.6.7'
 end
