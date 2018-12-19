@@ -15,13 +15,12 @@
     "git": "git@github.com:xiaheng666/XVIEWLLPayManager.git",
     "tag": "0.1.4"
   },
+  "static_framework": true,
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": [
-    "XVIEWLLPayManager/Classes/**/*",
-    "XVIEWLLPayManager/Classes/**/*.a"
-  ],
+  "source_files": "XVIEWLLPayManager/Classes/**/*",
+  "vendored_libraries": "Library/Classes/libLLPaySDK.a",
   "dependencies": {
     "LLPaySDK": [
       "2.6.7"
