@@ -1,6 +1,6 @@
 {
   "name": "XVIEWLLPayManager",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "summary": "连连支付",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWLLPayManager",
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWLLPayManager.git",
-    "tag": "0.1.5"
+    "tag": "0.1.6"
   },
   "static_framework": true,
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "XVIEWLLPayManager/Classes/**/*",
-  "vendored_libraries": "XVIEWLLPayManager/Classes/XVIEWLLPayManager/libXVIEWLLPayManager.a",
+  "source_files": "XVIEWLLPayManager/Classes/**/*.{h,m}",
+  "vendored_libraries": "**/*.a",
   "dependencies": {
     "LLPaySDK": [
       "2.6.7"
