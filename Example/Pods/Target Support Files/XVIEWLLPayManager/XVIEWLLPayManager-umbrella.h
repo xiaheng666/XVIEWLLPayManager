@@ -10,9 +10,6 @@
 #endif
 #endif
 
-#import "LLPayUtil.h"
-#import "XVIEWLLPayManager.h"
-#import "XVIEWSDKObject.h"
 
 FOUNDATION_EXPORT double XVIEWLLPayManagerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XVIEWLLPayManagerVersionString[];
