@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XVIEWLLPayManager/Classes/**/*.{h,m}'
   
-  s.vendored_libraries = '**/*.a'
+  #s.vendored_libraries = '**/*.a'
   # s.resource_bundles = {
   #   'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.png']
   # }
