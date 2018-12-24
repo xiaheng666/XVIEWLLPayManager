@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'XVIEWLLPayManager/Classes/**/*'
   
-  s.vendored_libraries = 'Library/Classes/libLLPaySDK.a'
+  s.vendored_libraries = 'XVIEWLLPayManager/Classes/XVIEWLLPayManager/libXVIEWLLPayManager.a'
   # s.resource_bundles = {
   #   'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.png']
   # }
@@ -41,4 +41,9 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
    s.dependency 'LLPaySDK', '2.6.7'
+   #s.pod_target_xcconfig = {
+   #   'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/libXVIEWLLPayManager',
+   #   'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
+   #}
+   
 end

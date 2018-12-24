@@ -66,7 +66,7 @@
 		B776660C9EB4CABD35EF4026 /* Pods-XVIEWLLPayManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWLLPayManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWLLPayManager_Tests/Pods-XVIEWLLPayManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C83F2B20350661CE766604C6 /* Pods-XVIEWLLPayManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWLLPayManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWLLPayManager_Example/Pods-XVIEWLLPayManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D3A571F0B3212A0498870813 /* Pods_XVIEWLLPayManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XVIEWLLPayManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E09BCED604F93070E5017382 /* XVIEWLLPayManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWLLPayManager.podspec; path = ../XVIEWLLPayManager.podspec; sourceTree = "<group>"; };
+		E09BCED604F93070E5017382 /* XVIEWLLPayManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWLLPayManager.podspec; path = ../XVIEWLLPayManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

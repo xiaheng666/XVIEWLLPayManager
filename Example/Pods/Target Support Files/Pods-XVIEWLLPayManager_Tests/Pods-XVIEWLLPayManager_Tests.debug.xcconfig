@@ -2,7 +2,7 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/XVIEWLLPa
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/LLPaySDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/LLPaySDK/LLPaySDK"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/LLPaySDK/LLPaySDK" "${PODS_ROOT}/../../XVIEWLLPayManager/Classes/XVIEWLLPayManager"
 OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/XVIEWLLPayManager/XVIEWLLPayManager.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/LLPaySDK"
 OTHER_LDFLAGS = $(inherited) -framework "CoreLocation" -framework "CoreTelephony" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "XVIEWLLPayManager"
 PODS_BUILD_DIR = ${BUILD_DIR}
