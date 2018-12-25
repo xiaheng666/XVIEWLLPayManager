@@ -1,4 +1,4 @@
-use_frameworks!
+#use_frameworks!
 
 target 'XVIEWLLPayManager_Example' do
   pod 'XVIEWLLPayManager', :path => '../'
@@ -6,7 +6,6 @@ target 'XVIEWLLPayManager_Example' do
   target 'XVIEWLLPayManager_Tests' do
     inherit! :search_paths
 
-    
   end
 end
 pre_install do |installer|
