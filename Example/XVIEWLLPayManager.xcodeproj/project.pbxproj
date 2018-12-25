@@ -66,7 +66,7 @@
 		AEFA78DC48FD38EF98037ED0 /* Pods-XVIEWLLPayManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWLLPayManager_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWLLPayManager_Tests/Pods-XVIEWLLPayManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B776660C9EB4CABD35EF4026 /* Pods-XVIEWLLPayManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWLLPayManager_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWLLPayManager_Tests/Pods-XVIEWLLPayManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C83F2B20350661CE766604C6 /* Pods-XVIEWLLPayManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XVIEWLLPayManager_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XVIEWLLPayManager_Example/Pods-XVIEWLLPayManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E09BCED604F93070E5017382 /* XVIEWLLPayManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XVIEWLLPayManager.podspec; path = ../XVIEWLLPayManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E09BCED604F93070E5017382 /* XVIEWLLPayManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = XVIEWLLPayManager.podspec; path = ../XVIEWLLPayManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				2958831E2B81E391C1A1BBF8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -296,6 +297,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2958831E2B81E391C1A1BBF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWLLPayManager_Example/Pods-XVIEWLLPayManager_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/XVIEWLLPayManager/XVIEWLLPayManager.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XVIEWLLPayManager.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWLLPayManager_Example/Pods-XVIEWLLPayManager_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		ABFE3837AA2B3F0EF7858CCC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

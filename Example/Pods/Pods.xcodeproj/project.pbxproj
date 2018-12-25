@@ -7,60 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0784C23756E6C9A72CE36ED64EA33817 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AD59F579C5CAD22685227836C7DB07D /* ReplaceMe.m */; };
-		0EF0DDA107FD0823A71FA92E564BDF4E /* XVIEWSDKObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A32DA78C8EC0DD2A05CB64C8BE874655 /* XVIEWSDKObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		023A63ACB40FB2909C692A4120D9C9D1 /* Pods-XVIEWLLPayManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0165BCB21564B3CA36EB539DAE079BA /* Pods-XVIEWLLPayManager_Example-dummy.m */; };
+		527196046DD23B84F8D7AD5BF6E0A60B /* walletResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F553010E9379F53626BB752FEE600291 /* walletResources.bundle */; };
 		6348F7D566F754C0540EC50E40E4D666 /* Pods-XVIEWLLPayManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2F045C2C1BDFB77B37FCAC135E48BD2 /* Pods-XVIEWLLPayManager_Tests-dummy.m */; };
-		9C9C303B3D6795F03E857F6922BC8C2F /* XVIEWLLPayManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2711B8D26D27553695A12AD7EA060344 /* XVIEWLLPayManager-dummy.m */; };
-		AE0609B10B0C9C95F0BE3FF84A5CE664 /* Pods-XVIEWLLPayManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B0165BCB21564B3CA36EB539DAE079BA /* Pods-XVIEWLLPayManager_Example-dummy.m */; };
-		BA4AC128DB58DB33EAF3DE35E7B4E238 /* XVIEWLLPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AB531966180C337C37CAA68069176037 /* XVIEWLLPayManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		23452C417BFB8F74E2BA08320877140C /* PBXContainerItemProxy */ = {
+		02713E55501816340B08C909B9D37EF5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = DCD7D4F93A63B74F713EDAD759AAF412;
-			remoteInfo = XVIEWLLPayManager;
+			remoteGlobalIDString = 64C7C2D58CCCC12F3872234DF94BA31A;
+			remoteInfo = "XVIEWLLPayManager-XVIEWLLPayManager";
 		};
 		B9ADDEAE62A5CCFC550DA8DEF84FFBB0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EE3B1078214BB97701326F93A65FADD0;
+			remoteGlobalIDString = 10829CA9A5B350BB557A9E0477CDCDF6;
 			remoteInfo = "Pods-XVIEWLLPayManager_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		052E7A7EE339B327E19FBCE68EC14AB2 /* libPods-XVIEWLLPayManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XVIEWLLPayManager_Tests.a"; path = "libPods-XVIEWLLPayManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		179911CFD805B8BB128B47766504303A /* Pods-XVIEWLLPayManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWLLPayManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		24E7D63B103BA56B3C3D49B87BF93FF6 /* libPods-XVIEWLLPayManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XVIEWLLPayManager_Example.a"; path = "libPods-XVIEWLLPayManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2711B8D26D27553695A12AD7EA060344 /* XVIEWLLPayManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XVIEWLLPayManager-dummy.m"; sourceTree = "<group>"; };
-		35A0F9DA33D060A49110B2DA50A8E3F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		38ACB317AC3BD8CEE09C35C963D83236 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		4786B32B4F4C0BC2A37FECC5B5D33307 /* XVIEWLLPayManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XVIEWLLPayManager.xcconfig; sourceTree = "<group>"; };
-		480D265A9F8816ACFD988CFAD6C677AB /* libLLPay.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPay.a; path = XVIEWLLPayManager/Classes/libLLPay.a; sourceTree = "<group>"; };
+		27A93FAF4F4980E20655DAFFE1966268 /* XVIEWLLPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWLLPayManager.h; path = XVIEWLLPayManager/Classes/XVIEWLLPayManager.h; sourceTree = "<group>"; };
+		2A208604815658A445D7B46424F5A291 /* libPods-XVIEWLLPayManager_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XVIEWLLPayManager_Example.a"; path = "libPods-XVIEWLLPayManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F3A5C4A862F8000E7A13F3075C293A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		498C7D824489126F4CE48E5405FFEC6B /* Pods-XVIEWLLPayManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWLLPayManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4CF8354C32C5972A89704008C02AA638 /* Pods-XVIEWLLPayManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWLLPayManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E6CD7FA08AA427F50F4B0C21FDE3F1D /* XVIEWLLPayManager.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XVIEWLLPayManager.bundle; path = "XVIEWLLPayManager-XVIEWLLPayManager.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6988E7DC0301F805532DE8041CFB6527 /* Pods-XVIEWLLPayManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWLLPayManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C5245A15AD86AF1D5E3AA600FE841F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		71CB69913825913DBF57DDEC2508900D /* Pods-XVIEWLLPayManager_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWLLPayManager_Example-resources.sh"; sourceTree = "<group>"; };
+		745E23E2AD5AB910684344085FCC907D /* ResourceBundle-XVIEWLLPayManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XVIEWLLPayManager-Info.plist"; sourceTree = "<group>"; };
 		772619F3D46168930C0F1492D46AD6DB /* Pods-XVIEWLLPayManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XVIEWLLPayManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F8C410BCA4BBC4F9F654C7C62786835 /* Pods-XVIEWLLPayManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XVIEWLLPayManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AD59F579C5CAD22685227836C7DB07D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XVIEWLLPayManager/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A32DA78C8EC0DD2A05CB64C8BE874655 /* XVIEWSDKObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWSDKObject.h; path = XVIEWLLPayManager/Classes/XVIEWSDKObject.h; sourceTree = "<group>"; };
-		AB531966180C337C37CAA68069176037 /* XVIEWLLPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWLLPayManager.h; path = XVIEWLLPayManager/Classes/XVIEWLLPayManager.h; sourceTree = "<group>"; };
+		9F5C3585D5FD3B4680E82FBA8888F900 /* XVIEWLLPayManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWLLPayManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1CE60F0ABEE884CDCB98AFA9C67D032 /* libLLPay.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPay.a; path = XVIEWLLPayManager/Classes/libLLPay.a; sourceTree = "<group>"; };
 		AC10C0741D3047E441FB0C653D4B6BF2 /* Pods-XVIEWLLPayManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWLLPayManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B0165BCB21564B3CA36EB539DAE079BA /* Pods-XVIEWLLPayManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWLLPayManager_Example-dummy.m"; sourceTree = "<group>"; };
 		B1F75A88AB7D11293CAF2D19168045BD /* Pods-XVIEWLLPayManager_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWLLPayManager_Tests-resources.sh"; sourceTree = "<group>"; };
+		B85CC47D4BAAB1715E6F3660E3EA6BA3 /* libPods-XVIEWLLPayManager_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-XVIEWLLPayManager_Tests.a"; path = "libPods-XVIEWLLPayManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD663DEBB1E74DCDF89A43AC0466191F /* XVIEWSDKObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XVIEWSDKObject.h; path = XVIEWLLPayManager/Classes/XVIEWSDKObject.h; sourceTree = "<group>"; };
 		D2F045C2C1BDFB77B37FCAC135E48BD2 /* Pods-XVIEWLLPayManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XVIEWLLPayManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		D4980894C369F594BB9C9DEFAA836846 /* XVIEWLLPayManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XVIEWLLPayManager-prefix.pch"; sourceTree = "<group>"; };
+		DCE8C74D93A3A7CC037E54AA3FD60DD8 /* LLPayUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPayUtil.h; path = XVIEWLLPayManager/Classes/LLPayUtil.h; sourceTree = "<group>"; };
 		E77F6B25EAC576A3F84F32559317BC50 /* Pods-XVIEWLLPayManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWLLPayManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EE5A3F3E9C395FCC79A36679C76AC527 /* Pods-XVIEWLLPayManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XVIEWLLPayManager_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F6557217052D96F26E4E675209AB8892 /* libXVIEWLLPayManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libXVIEWLLPayManager.a; path = libXVIEWLLPayManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC0514977D605B216E9250519426F36B /* XVIEWLLPayManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XVIEWLLPayManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F553010E9379F53626BB752FEE600291 /* walletResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = walletResources.bundle; path = XVIEWLLPayManager/Assets/walletResources.bundle; sourceTree = "<group>"; };
 		FC3C11C6726DC6850CC0ACDA1FE327B1 /* Pods-XVIEWLLPayManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XVIEWLLPayManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FEEF827D8413D044CAC0E1C806098FD6 /* LLPaySdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPaySdk.h; path = XVIEWLLPayManager/Classes/LLPaySdk.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,14 +68,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		600AC5761BA497E0F1E535EDBE7C16D4 /* Frameworks */ = {
+		88751372F08CF3ADD456F3FED14C342A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDBE2EB983D7E79954AC707B035A8639 /* Frameworks */ = {
+		CEEB5FFB5113DD052ECB0C05025AC2BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,14 +85,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		083C786034C91652DDF9C740737A7F69 /* Pod */ = {
+		0F89D9AB30CB1CC59D3475DCE1CD14FE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				38ACB317AC3BD8CEE09C35C963D83236 /* LICENSE */,
-				35A0F9DA33D060A49110B2DA50A8E3F1 /* README.md */,
-				FC0514977D605B216E9250519426F36B /* XVIEWLLPayManager.podspec */,
+				745E23E2AD5AB910684344085FCC907D /* ResourceBundle-XVIEWLLPayManager-Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XVIEWLLPayManager";
 			sourceTree = "<group>";
 		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
@@ -105,39 +101,28 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		525E5ADA420FE554E553BA12E6A90FB8 /* Support Files */ = {
+		60BC149ADD100465AA1263C967B53B01 /* XVIEWLLPayManager */ = {
 			isa = PBXGroup;
 			children = (
-				4786B32B4F4C0BC2A37FECC5B5D33307 /* XVIEWLLPayManager.xcconfig */,
-				2711B8D26D27553695A12AD7EA060344 /* XVIEWLLPayManager-dummy.m */,
-				D4980894C369F594BB9C9DEFAA836846 /* XVIEWLLPayManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XVIEWLLPayManager";
-			sourceTree = "<group>";
-		};
-		6EC016D10EBA7925B3284091658E1E6B /* XVIEWLLPayManager */ = {
-			isa = PBXGroup;
-			children = (
-				8AD59F579C5CAD22685227836C7DB07D /* ReplaceMe.m */,
-				AB531966180C337C37CAA68069176037 /* XVIEWLLPayManager.h */,
-				A32DA78C8EC0DD2A05CB64C8BE874655 /* XVIEWSDKObject.h */,
-				FDC7591749D92341F0B5F97CA3C4DC10 /* Frameworks */,
-				083C786034C91652DDF9C740737A7F69 /* Pod */,
-				525E5ADA420FE554E553BA12E6A90FB8 /* Support Files */,
+				FEEF827D8413D044CAC0E1C806098FD6 /* LLPaySdk.h */,
+				DCE8C74D93A3A7CC037E54AA3FD60DD8 /* LLPayUtil.h */,
+				27A93FAF4F4980E20655DAFFE1966268 /* XVIEWLLPayManager.h */,
+				BD663DEBB1E74DCDF89A43AC0466191F /* XVIEWSDKObject.h */,
+				DF847381A05C643EDF6592DEEA6EB6EA /* Frameworks */,
+				BD8A3A5837335C72CE55C377EC33439F /* Pod */,
+				6D8CAEC7B9F6652B67D2EB8273A525CE /* Resources */,
+				0F89D9AB30CB1CC59D3475DCE1CD14FE /* Support Files */,
 			);
 			name = XVIEWLLPayManager;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		720AF8B14076619440255E19EF6DA343 /* Products */ = {
+		6D8CAEC7B9F6652B67D2EB8273A525CE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				24E7D63B103BA56B3C3D49B87BF93FF6 /* libPods-XVIEWLLPayManager_Example.a */,
-				052E7A7EE339B327E19FBCE68EC14AB2 /* libPods-XVIEWLLPayManager_Tests.a */,
-				F6557217052D96F26E4E675209AB8892 /* libXVIEWLLPayManager.a */,
+				F553010E9379F53626BB752FEE600291 /* walletResources.bundle */,
 			);
-			name = Products;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		78ACF798835241F3FB8B2DAF38D521CC /* Targets Support Files */ = {
@@ -168,11 +153,47 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FD6B73200D8FE2B7661B99A316305288 /* Development Pods */,
+				A6D38899B75CC7AE0A08104A8ADFA43D /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
-				720AF8B14076619440255E19EF6DA343 /* Products */,
+				C7DBA811D6FFD8E970A2C9D04FE5090D /* Products */,
 				78ACF798835241F3FB8B2DAF38D521CC /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		A6D38899B75CC7AE0A08104A8ADFA43D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BC149ADD100465AA1263C967B53B01 /* XVIEWLLPayManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BD8A3A5837335C72CE55C377EC33439F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2F3A5C4A862F8000E7A13F3075C293A3 /* LICENSE */,
+				6C5245A15AD86AF1D5E3AA600FE841F8 /* README.md */,
+				9F5C3585D5FD3B4680E82FBA8888F900 /* XVIEWLLPayManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C7DBA811D6FFD8E970A2C9D04FE5090D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A208604815658A445D7B46424F5A291 /* libPods-XVIEWLLPayManager_Example.a */,
+				B85CC47D4BAAB1715E6F3660E3EA6BA3 /* libPods-XVIEWLLPayManager_Tests.a */,
+				4E6CD7FA08AA427F50F4B0C21FDE3F1D /* XVIEWLLPayManager.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF847381A05C643EDF6592DEEA6EB6EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1CE60F0ABEE884CDCB98AFA9C67D032 /* libLLPay.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EF202413E2A61AD0FCCC91A89BCCDF8E /* Pods-XVIEWLLPayManager_Example */ = {
@@ -190,70 +211,42 @@
 			path = "Target Support Files/Pods-XVIEWLLPayManager_Example";
 			sourceTree = "<group>";
 		};
-		FD6B73200D8FE2B7661B99A316305288 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6EC016D10EBA7925B3284091658E1E6B /* XVIEWLLPayManager */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		FDC7591749D92341F0B5F97CA3C4DC10 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				480D265A9F8816ACFD988CFAD6C677AB /* libLLPay.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		C8FE7B9EC5F2981636B8285D94B98580 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA4AC128DB58DB33EAF3DE35E7B4E238 /* XVIEWLLPayManager.h in Headers */,
-				0EF0DDA107FD0823A71FA92E564BDF4E /* XVIEWSDKObject.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		DCD7D4F93A63B74F713EDAD759AAF412 /* XVIEWLLPayManager */ = {
+		10829CA9A5B350BB557A9E0477CDCDF6 /* Pods-XVIEWLLPayManager_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8F1AD87C38FA7CF9C6385A07DC0E230 /* Build configuration list for PBXNativeTarget "XVIEWLLPayManager" */;
+			buildConfigurationList = 7540672E0F2B3E1A74C96BDC0B6C6A66 /* Build configuration list for PBXNativeTarget "Pods-XVIEWLLPayManager_Example" */;
 			buildPhases = (
-				BC25B663285E999BEFEAFE8962F97E09 /* Sources */,
-				BDBE2EB983D7E79954AC707B035A8639 /* Frameworks */,
-				C8FE7B9EC5F2981636B8285D94B98580 /* Headers */,
+				551F10A54062E2378E6FA8CF7FA472ED /* Sources */,
+				88751372F08CF3ADD456F3FED14C342A /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = XVIEWLLPayManager;
-			productName = XVIEWLLPayManager;
-			productReference = F6557217052D96F26E4E675209AB8892 /* libXVIEWLLPayManager.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		EE3B1078214BB97701326F93A65FADD0 /* Pods-XVIEWLLPayManager_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DCA97C8B1CEAA0BCD00C4486F08E8D8 /* Build configuration list for PBXNativeTarget "Pods-XVIEWLLPayManager_Example" */;
-			buildPhases = (
-				4597D952EA90AD40D4ECA3704F697F3D /* Sources */,
-				600AC5761BA497E0F1E535EDBE7C16D4 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7C10B772453C003837AF114A9999EE51 /* PBXTargetDependency */,
+				68EF66FDE1D07A13B07CD2284259B4FE /* PBXTargetDependency */,
 			);
 			name = "Pods-XVIEWLLPayManager_Example";
 			productName = "Pods-XVIEWLLPayManager_Example";
-			productReference = 24E7D63B103BA56B3C3D49B87BF93FF6 /* libPods-XVIEWLLPayManager_Example.a */;
+			productReference = 2A208604815658A445D7B46424F5A291 /* libPods-XVIEWLLPayManager_Example.a */;
 			productType = "com.apple.product-type.library.static";
+		};
+		64C7C2D58CCCC12F3872234DF94BA31A /* XVIEWLLPayManager-XVIEWLLPayManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 610505A6DBA7594D6DDFD65B76E4CC8D /* Build configuration list for PBXNativeTarget "XVIEWLLPayManager-XVIEWLLPayManager" */;
+			buildPhases = (
+				F93887972E5CA2CA5914A032FA5D647A /* Sources */,
+				CEEB5FFB5113DD052ECB0C05025AC2BC /* Frameworks */,
+				A67251361ABE9E691173B903CC64F27B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "XVIEWLLPayManager-XVIEWLLPayManager";
+			productName = "XVIEWLLPayManager-XVIEWLLPayManager";
+			productReference = 4E6CD7FA08AA427F50F4B0C21FDE3F1D /* XVIEWLLPayManager.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		F4627D0D41F744CBD754AE11872EA9EF /* Pods-XVIEWLLPayManager_Tests */ = {
 			isa = PBXNativeTarget;
@@ -269,7 +262,7 @@
 			);
 			name = "Pods-XVIEWLLPayManager_Tests";
 			productName = "Pods-XVIEWLLPayManager_Tests";
-			productReference = 052E7A7EE339B327E19FBCE68EC14AB2 /* libPods-XVIEWLLPayManager_Tests.a */;
+			productReference = B85CC47D4BAAB1715E6F3660E3EA6BA3 /* libPods-XVIEWLLPayManager_Tests.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -289,16 +282,27 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 720AF8B14076619440255E19EF6DA343 /* Products */;
+			productRefGroup = C7DBA811D6FFD8E970A2C9D04FE5090D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE3B1078214BB97701326F93A65FADD0 /* Pods-XVIEWLLPayManager_Example */,
+				10829CA9A5B350BB557A9E0477CDCDF6 /* Pods-XVIEWLLPayManager_Example */,
 				F4627D0D41F744CBD754AE11872EA9EF /* Pods-XVIEWLLPayManager_Tests */,
-				DCD7D4F93A63B74F713EDAD759AAF412 /* XVIEWLLPayManager */,
+				64C7C2D58CCCC12F3872234DF94BA31A /* XVIEWLLPayManager-XVIEWLLPayManager */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A67251361ABE9E691173B903CC64F27B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527196046DD23B84F8D7AD5BF6E0A60B /* walletResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		37D08BACE41DD55A5A8745BF58BFAB1E /* Sources */ = {
@@ -309,63 +313,60 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4597D952EA90AD40D4ECA3704F697F3D /* Sources */ = {
+		551F10A54062E2378E6FA8CF7FA472ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0609B10B0C9C95F0BE3FF84A5CE664 /* Pods-XVIEWLLPayManager_Example-dummy.m in Sources */,
+				023A63ACB40FB2909C692A4120D9C9D1 /* Pods-XVIEWLLPayManager_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC25B663285E999BEFEAFE8962F97E09 /* Sources */ = {
+		F93887972E5CA2CA5914A032FA5D647A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0784C23756E6C9A72CE36ED64EA33817 /* ReplaceMe.m in Sources */,
-				9C9C303B3D6795F03E857F6922BC8C2F /* XVIEWLLPayManager-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7C10B772453C003837AF114A9999EE51 /* PBXTargetDependency */ = {
+		68EF66FDE1D07A13B07CD2284259B4FE /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = XVIEWLLPayManager;
-			target = DCD7D4F93A63B74F713EDAD759AAF412 /* XVIEWLLPayManager */;
-			targetProxy = 23452C417BFB8F74E2BA08320877140C /* PBXContainerItemProxy */;
+			name = "XVIEWLLPayManager-XVIEWLLPayManager";
+			target = 64C7C2D58CCCC12F3872234DF94BA31A /* XVIEWLLPayManager-XVIEWLLPayManager */;
+			targetProxy = 02713E55501816340B08C909B9D37EF5 /* PBXContainerItemProxy */;
 		};
 		EE2BC132071D41B40FEB914624AEFC30 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XVIEWLLPayManager_Example";
-			target = EE3B1078214BB97701326F93A65FADD0 /* Pods-XVIEWLLPayManager_Example */;
+			target = 10829CA9A5B350BB557A9E0477CDCDF6 /* Pods-XVIEWLLPayManager_Example */;
 			targetProxy = B9ADDEAE62A5CCFC550DA8DEF84FFBB0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B0EFA6086E594A91F07E7AD0CCE7419 /* Debug */ = {
+		06C0AF8694561C4C75EA0DC50EA2D819 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4786B32B4F4C0BC2A37FECC5B5D33307 /* XVIEWLLPayManager.xcconfig */;
+			baseConfigurationReference = FC3C11C6726DC6850CC0ACDA1FE327B1 /* Pods-XVIEWLLPayManager_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/XVIEWLLPayManager/XVIEWLLPayManager-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = XVIEWLLPayManager;
-				PRODUCT_NAME = XVIEWLLPayManager;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -451,9 +452,9 @@
 			};
 			name = Debug;
 		};
-		5C7216911E46BFA560033A5C0333015D /* Release */ = {
+		75D3401964C90BF3A10BB60008FD3A66 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC3C11C6726DC6850CC0ACDA1FE327B1 /* Pods-XVIEWLLPayManager_Example.release.xcconfig */;
+			baseConfigurationReference = AC10C0741D3047E441FB0C653D4B6BF2 /* Pods-XVIEWLLPayManager_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -469,9 +470,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		B1EE6E012A6E1F8087AAE6D3150C7514 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -495,29 +495,35 @@
 			};
 			name = Release;
 		};
-		C0D8EBD08E4070FCE7C878F2A40ACDC9 /* Release */ = {
+		CC4B6AE36282F87DCC7ABEE968DC14B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4786B32B4F4C0BC2A37FECC5B5D33307 /* XVIEWLLPayManager.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/XVIEWLLPayManager/XVIEWLLPayManager-prefix.pch";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XVIEWLLPayManager";
+				INFOPLIST_FILE = "Target Support Files/XVIEWLLPayManager/ResourceBundle-XVIEWLLPayManager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = XVIEWLLPayManager;
 				PRODUCT_NAME = XVIEWLLPayManager;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
+		};
+		CEF0E676EFD654FBCA174FE610F89832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XVIEWLLPayManager";
+				INFOPLIST_FILE = "Target Support Files/XVIEWLLPayManager/ResourceBundle-XVIEWLLPayManager-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = XVIEWLLPayManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
 		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -577,27 +583,6 @@
 			};
 			name = Release;
 		};
-		F68CE05266E7C06C2329D647E5F040B9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC10C0741D3047E441FB0C653D4B6BF2 /* Pods-XVIEWLLPayManager_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -606,15 +591,6 @@
 			buildConfigurations = (
 				28113B97F52A1F93A78031F2AD3936EC /* Debug */,
 				B1EE6E012A6E1F8087AAE6D3150C7514 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DCA97C8B1CEAA0BCD00C4486F08E8D8 /* Build configuration list for PBXNativeTarget "Pods-XVIEWLLPayManager_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F68CE05266E7C06C2329D647E5F040B9 /* Debug */,
-				5C7216911E46BFA560033A5C0333015D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -628,11 +604,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8F1AD87C38FA7CF9C6385A07DC0E230 /* Build configuration list for PBXNativeTarget "XVIEWLLPayManager" */ = {
+		610505A6DBA7594D6DDFD65B76E4CC8D /* Build configuration list for PBXNativeTarget "XVIEWLLPayManager-XVIEWLLPayManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1B0EFA6086E594A91F07E7AD0CCE7419 /* Debug */,
-				C0D8EBD08E4070FCE7C878F2A40ACDC9 /* Release */,
+				CEF0E676EFD654FBCA174FE610F89832 /* Debug */,
+				CC4B6AE36282F87DCC7ABEE968DC14B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7540672E0F2B3E1A74C96BDC0B6C6A66 /* Build configuration list for PBXNativeTarget "Pods-XVIEWLLPayManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D3401964C90BF3A10BB60008FD3A66 /* Debug */,
+				06C0AF8694561C4C75EA0DC50EA2D819 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

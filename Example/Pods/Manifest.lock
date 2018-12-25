@@ -1,5 +1,5 @@
 PODS:
-  - XVIEWLLPayManager (0.2.0)
+  - XVIEWLLPayManager (0.2.2)
 
 DEPENDENCIES:
   - XVIEWLLPayManager (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWLLPayManager: 9ebc70485fd3be1c8ccc4a34e1b2d769372ccd72
+  XVIEWLLPayManager: b273a03af3a7eb28ed9f89f7361af32640119c5c
 
 PODFILE CHECKSUM: 5344370d2999f8243f1f8fd58059c3af9798c846
 
