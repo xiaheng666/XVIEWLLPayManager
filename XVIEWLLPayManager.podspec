@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWLLPayManager'
-  s.version          = '0.1.8'
+  s.version          = '0.1.9'
   s.summary          = '连连支付'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
   s.source_files = 'XVIEWLLPayManager/Classes/*{.h,m}'
   
-  s.ios.vendored_libraries = 'XVIEWLLPayManager/Classes/libXVIEWLLPayManager.a'
+  s.ios.vendored_libraries = 'XVIEWLLPayManager/Classes/libLLPay.a'
   # s.ios.vendored_frameworks = 'XVIEWLLPayManager/Classes/libXVIEWLLPayManager.a'
   # s.resource_bundles = {
   #   'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.png']
