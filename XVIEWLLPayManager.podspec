@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWLLPayManager'
-  s.version          = '0.2.2'
+  s.version          = '0.2.5'
   s.summary          = '连连支付'
 
 # This description is used to generate tags and improve search results.
@@ -36,13 +36,13 @@ TODO: Add long description of the pod here.
   
   s.ios.vendored_libraries = 'XVIEWLLPayManager/Classes/*.a'
   # s.ios.vendored_frameworks = 'XVIEWLLPayManager/Classes/libXVIEWLLPayManager.a'
-   s.resource_bundles = {
-     'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.bundle']
-   }
+  # s.resource_bundles = {
+  #  'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.bundle']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  #s.dependency 'LLPaySDK', '2.6.7'
+  s.dependency 'LLPaySDK', '2.6.7'
    #s.pod_target_xcconfig = {
    #   'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/libXVIEWLLPayManager',
    #   'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'

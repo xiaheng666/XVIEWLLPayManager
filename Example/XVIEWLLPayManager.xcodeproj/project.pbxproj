@@ -304,11 +304,11 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XVIEWLLPayManager_Example/Pods-XVIEWLLPayManager_Example-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/XVIEWLLPayManager/XVIEWLLPayManager.bundle",
+				"${PODS_ROOT}/LLPaySDK/LLPaySDK/walletResources.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/XVIEWLLPayManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/walletResources.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
