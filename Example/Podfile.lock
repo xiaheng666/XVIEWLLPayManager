@@ -1,16 +1,23 @@
 PODS:
-  - XVIEWLLPayManager (0.1.6)
+  - LLPaySDK (2.6.7)
+  - XVIEWLLPayManager (0.1.7):
+    - LLPaySDK (= 2.6.7)
 
 DEPENDENCIES:
   - XVIEWLLPayManager (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - LLPaySDK
 
 EXTERNAL SOURCES:
   XVIEWLLPayManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XVIEWLLPayManager: 383e6edb8b6d44567af281e8f7e5294b0a1da2a7
+  LLPaySDK: 78e93a7cd66d5d891118fdfb63063ffc8cd8ea3a
+  XVIEWLLPayManager: 745f4e20d7f804ad92b9c7f3e7e709f8debdc064
 
-PODFILE CHECKSUM: 75b500bf4d0ad6568e764eb2af9d60cb65825763
+PODFILE CHECKSUM: 8bbbf3a896c056d2535478693397c3ec22f88613
 
 COCOAPODS: 1.5.3

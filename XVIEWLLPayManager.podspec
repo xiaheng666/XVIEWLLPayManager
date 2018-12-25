@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWLLPayManager'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = '连连支付'
 
 # This description is used to generate tags and improve search results.
@@ -28,19 +28,21 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'git@github.com:xiaheng666/XVIEWLLPayManager.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.static_framework = true
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'XVIEWLLPayManager/Classes/**/*.{h,m}'
+  #s.static_framework = true
   
-  #s.vendored_libraries = '**/*.a'
+  s.ios.deployment_target = '8.0'
+  
+  s.source_files = 'XVIEWLLPayManager/Classes/*{.h,m}'
+  
+  s.ios.vendored_libraries = 'XVIEWLLPayManager/Classes/libXVIEWLLPayManager.a'
+  # s.ios.vendored_frameworks = 'XVIEWLLPayManager/Classes/libXVIEWLLPayManager.a'
   # s.resource_bundles = {
   #   'XVIEWLLPayManager' => ['XVIEWLLPayManager/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   #s.dependency 'LLPaySDK', '2.6.7'
+   s.dependency 'LLPaySDK', '2.6.7'
    #s.pod_target_xcconfig = {
    #   'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/libXVIEWLLPayManager',
    #   'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
