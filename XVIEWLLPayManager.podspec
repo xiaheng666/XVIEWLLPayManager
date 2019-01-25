@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWLLPayManager'
-  s.version          = '0.2.5'
+  s.version          = '0.2.7'
   s.summary          = '连连支付'
 
 # This description is used to generate tags and improve search results.

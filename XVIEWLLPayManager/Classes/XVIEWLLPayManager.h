@@ -1,31 +1,32 @@
 //
 //  XVIEWLLPayManager.h
-//  XVIEW2.0
+//  XVIEWLLPayManager
 //
-//  Created by njxh on 16/11/26.
-//  Copyright © 2016年 南京 夏恒. All rights reserved.
+//  Created by yyj on 2019/1/3.
+//  Copyright © 2019 zd. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
-#import "XVIEWSDKObject.h"
 
 @interface XVIEWLLPayManager : NSObject
-/* 支持 连连支付SDK2.6.4版本
- 添加下列系统库
- SystemConfiguration
- CoreLocation
- MobileCoreServices
- CoreTelephony
- 
- - Target->Build Setting ，Other Linker Flags 设置为 -all_load
- - 可能添加-all_load以后和其他库冲突，可以尝试使用 -force_load 单独load库, force_load后面跟的是 lib库的完整路径
- - -force_load $(SRCROOT)/.../libPaySdkColor.a (****需要按照你的库放置的路径决定)
- */
+
 /**
- *  LLpayApiManager的单例类
- *
- *  @return 您可以通过此方法，获取LLpayApiManager的单例，访问对象中的属性和方法
+ *  单例
  */
-+ (instancetype)shareXVIEWLLPayManager;
++ (instancetype)sharedLLPayManager;
+
+/**
+ *  连连支付
+ @param param     data:{@"type":支付方式  quick快捷支付/verify认证支付 , 其他参数}
+                  callback:回调方法
+ 其他参数：
+ 必须参数:sign,sign_type,busi_partner,dt_order,money_order,
+         no_order,name_goods,info_order,id_type,notify_url,
+         oid_partner,card_no,user_id,
+         id_no,acct_name(认证比快捷多这俩参数)
+ 可配置参数:[user_info_id_no,user_info_full_name,user_info_mercht_userno,user_info_identify_state,
+          user_info_identify_type,frms_ware_category,user_info_bind_phone,user_info_dt_register]
+ */
+- (void)llPay:(NSDictionary *)param;
 
 @end
