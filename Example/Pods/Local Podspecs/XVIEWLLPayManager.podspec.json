@@ -23,8 +23,8 @@
     "vendored_libraries": "XVIEWLLPayManager/Classes/*.a"
   },
   "dependencies": {
-    "LLPaySDK": [
-      "2.6.7"
+    "LLMPay": [
+
     ]
   }
 }

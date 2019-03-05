@@ -42,7 +42,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'LLPaySDK', '2.6.7'
+  s.dependency 'LLMPay'
    #s.pod_target_xcconfig = {
    #   'FRAMEWORK_SEARCH_PATHS' => '$(inherited) $(PODS_ROOT)/libXVIEWLLPayManager',
    #   'OTHER_LDFLAGS'          => '$(inherited) -undefined dynamic_lookup'
