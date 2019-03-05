@@ -1,6 +1,6 @@
 {
   "name": "XVIEWLLPayManager",
-  "version": "0.2.7",
+  "version": "0.2.8",
   "summary": "连连支付",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaheng666/XVIEWLLPayManager",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "git@github.com:xiaheng666/XVIEWLLPayManager.git",
-    "tag": "0.2.7"
+    "tag": "0.2.8"
   },
   "platforms": {
     "ios": "8.0"
