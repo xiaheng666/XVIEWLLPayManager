@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XVIEWLLPayManager'
-  s.version          = '0.2.8'
+  s.version          = '0.2.9'
   s.summary          = '连连支付'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ TODO: Add long description of the pod here.
   
   s.ios.deployment_target = '8.0'
   
-  s.source_files = 'XVIEWLLPayManager/Classes/*{.h,m}'
+  s.source_files = 'XVIEWLLPayManager/Classes/*.h'
   
   s.ios.vendored_libraries = 'XVIEWLLPayManager/Classes/*.a'
   # s.ios.vendored_frameworks = 'XVIEWLLPayManager/Classes/libXVIEWLLPayManager.a'
